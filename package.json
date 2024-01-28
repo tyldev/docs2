@@ -1,9 +1,9 @@
 {
-  "name": "nextra-docs-template",
+  "name": "lobe-hub-docs",
   "version": "0.0.1",
   "description": "Nextra docs template",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3222",
     "build": "next build",
     "start": "next start"
   },
@@ -11,20 +11,21 @@
     "type": "git",
     "url": "git+https://github.com/shuding/nextra-docs-template.git"
   },
-  "author": "Shu Ding <g@shud.in>",
-  "license": "MIT",
+  "author": "arvinxx(arvinx@foxmail.com)",
   "bugs": {
     "url": "https://github.com/shuding/nextra-docs-template/issues"
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
-    "next": "^14.1.0",
+    "next": "^13.5.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "typescript": "^5.3.3"
+    "@lobehub/lint": "latest",
+    "typescript": "^5.3.3",
+    "prettier": "^3"
   }
 }
